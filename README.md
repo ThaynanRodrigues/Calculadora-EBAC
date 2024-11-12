@@ -1,14 +1,14 @@
 # Calculadora-EBAC
  Neste código, é possível que você utilize uma calculadora criada a partir de um curso feito pela EBAC.
 
-• Para executar o script .sh:
+# Para executar o script .sh:
 
 sudo ./calc.sh
 
-• Para esta calculadora, foram usados os seguintes códigos em Python:
+# Para esta calculadora, foram usados os seguintes códigos em Python:
 
 
-# Solicitando os 2 valores
+ Solicitando os 2 valores
 contador = 'não'
 while contador == 'não':
 
@@ -16,7 +16,7 @@ while contador == 'não':
   valorb = int(input('Digite outro valor:'))
   operador = input('Digite a operação matemática:')
 
-# Designando os operadores
+ Designando os operadores
   if operador == 'soma' or operador == '+':
     soma = valora + valorb
     print('O resultado é:',soma)
@@ -33,7 +33,7 @@ while contador == 'não':
     multiplicacao = valora * valorb
     print('O resultado é:',multiplicacao)
 
-# Criando o loop (repetir a operação)
+ Criando o loop (repetir a operação)
   contador = input('Deseja sair do programa?')
 
 else:
